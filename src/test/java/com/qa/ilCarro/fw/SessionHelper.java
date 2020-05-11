@@ -1,5 +1,6 @@
 package com.qa.ilCarro.fw;
 
+import com.qa.ilCarro.model.UserData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -10,7 +11,8 @@ public class SessionHelper extends HelperBase{
     }
 
     public void login(String userEmail, String password) {
-       // initLogin();
+       initLogin();
+
 
 
     }
@@ -18,11 +20,12 @@ public class SessionHelper extends HelperBase{
         click(By.cssSelector("[href='/login']"));
     }
 
-    public void fillLoginForm(String userEmail, String password) {
-        type(By.name("user"), userEmail);
-        type(By.name("password"), password);
-    }
     public void confirmLogin() {
-        waitForElementClickableAndClick(By.id("login"), 30);
+        confirm();
+    }
+
+    public void fillLoginForm(UserData user) {
+        type(By.cssSelector("#email"), user.getEmail());
+        type(By.cssSelector("#password"), user.getPassword());
     }
 }
