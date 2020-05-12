@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da68cb62-79ec-4d57-b209-a8f505c132a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/ilCarro/tests/OpenSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/ilCarro/tests/OpenSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
