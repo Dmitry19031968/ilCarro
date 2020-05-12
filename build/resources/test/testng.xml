@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" verbose="1" >
+
+    <test name="OpenSite">
+        <classes>
+            <class name="com.qa.ilCarro.tests.OpenSite"/>
+        </classes>
+    </test>
+
+    <test name="Logout" >
+        <classes>
+            <class name="com.qa.ilCarro.tests.LogOutTests" />
+        </classes>
+    </test>
+
+    <test name="Login" >
+        <classes>
+            <class name="com.qa.ilCarro.tests.LoginTests" />
+        </classes>
+    </test>
+
+
+
+
+
+</suite>
