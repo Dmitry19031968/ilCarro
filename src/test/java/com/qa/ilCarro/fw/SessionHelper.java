@@ -12,20 +12,19 @@ public class SessionHelper extends HelperBase{
 
     public void login(String userEmail, String password) {
        initLogin();
-
-
-
+       fillLoginForm(userEmail, password);
+       confirmLogin();
     }
     public void initLogin() {
         click(By.cssSelector("[href='/login']"));
     }
 
-    public void confirmLogin() {
-        confirm();
+    public void fillLoginForm(String userEmail, String password) {
+        type(By.cssSelector("[name='email']"), userEmail);
+        type(By.cssSelector("[name='password']"), password);
     }
 
-    public void fillLoginForm(UserData user) {
-        type(By.cssSelector("#email"), user.getEmail());
-        type(By.cssSelector("#password"), user.getPassword());
+    public void confirmLogin() {
+        confirm();
     }
 }

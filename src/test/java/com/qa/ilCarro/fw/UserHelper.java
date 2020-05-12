@@ -10,16 +10,16 @@ public class UserHelper extends HelperBase{
     }
 
     public void clickSignUpButton() {
-        click(By.cssSelector("[href^='/registration']"));
+        click(By.cssSelector("[href^='/signup']"));
     }
 
     public void fillRegistrationForm(UserData user) {
-        type(By.cssSelector("#name"), user.getfName());
-        type(By.cssSelector("#lastName"), user.getlName());
+        type(By.cssSelector("#first_name"), user.getfName());
+        type(By.cssSelector("#second_name"), user.getlName());
         type(By.cssSelector("#email"), user.getEmail());
         type(By.cssSelector("#password"), user.getPassword());
 
-        click(By.cssSelector(".checkbox-container"));
+        click(By.cssSelector("#check_policy"));
     }
 
     public void confirmRegistration(){
@@ -31,7 +31,7 @@ public class UserHelper extends HelperBase{
     }
 
     public void fillLoginForm(UserData user) {
-        type(By.cssSelector("#email"), user.getEmail());
-        type(By.cssSelector("#password"), user.getPassword());
+        type(By.cssSelector("[name='email']"), user.getEmail());
+        type(By.cssSelector("[name='password']"), user.getPassword());
     }
 }
