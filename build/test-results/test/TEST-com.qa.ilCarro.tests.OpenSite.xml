@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.qa.ilCarro.tests.OpenSite" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-12T12:45:02" hostname="LAPTOP-1PAU2VV8" time="0.014">
+  <properties/>
+  <testcase name="isSiteOpenedOnSearchPage" classname="com.qa.ilCarro.tests.OpenSite" time="0.014"/>
+  <system-out><![CDATA[15:45:02.061 [Test worker] INFO  com.qa.ilCarro.tests.TestBase - Start test isSiteOpenedOnSearchPage with parameters: []
+15:45:02.093 [Test worker] INFO  com.qa.ilCarro.tests.TestBase - Stop test isSiteOpenedOnSearchPage
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

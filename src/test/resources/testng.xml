@@ -19,9 +19,4 @@
             <class name="com.qa.ilCarro.tests.LoginTests" />
         </classes>
     </test>
-
-
-
-
-
 </suite>

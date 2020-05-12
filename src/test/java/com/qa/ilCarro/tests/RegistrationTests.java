@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase {
 
-    @Test
+    @Test(enabled = false)
     public void registrationFromHeader(){
         app.getUser().clickSignUpButton();
         app.getUser().fillRegistrationForm(new UserData().withfName("Margarita")

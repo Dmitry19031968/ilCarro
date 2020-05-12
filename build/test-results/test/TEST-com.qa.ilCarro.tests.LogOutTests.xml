@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.qa.ilCarro.tests.LogOutTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-12T12:18:08" hostname="LAPTOP-1PAU2VV8" time="3.079">
-  <properties/>
-  <testcase name="logoutFromHeader" classname="com.qa.ilCarro.tests.LogOutTests" time="3.079"/>
-  <system-out><![CDATA[15:18:04.821 [Test worker] INFO  com.qa.ilCarro.tests.TestBase - Start test logoutFromHeader with parameters: []
-15:18:11.485 [Test worker] INFO  com.qa.ilCarro.tests.TestBase - Stop test logoutFromHeader
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
